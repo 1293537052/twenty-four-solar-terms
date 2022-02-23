@@ -1,0 +1,309 @@
+/*Extra Large Device*/
+@media only screen and (min-width: 1201px){
+	
+}
+
+/*Large Device*/
+@media only screen and (min-width: 992px) and (max-width : 1200px) {
+	.section_title h2 {
+	    font-size: 35px;
+	}
+	.header_top_bar .top_left a {
+	    font-size: 14px;
+	}
+	.header_top_bar .top_right a {
+	    font-size: 14px;
+	}
+	.course_style_v1 .course_box .domar_info .post_title h3 {
+	    font-size: 18px;
+	    line-height: 27px;
+	}
+	.joined_wrapper .domar_content_box h2{
+		font-size: 28px;
+	}
+	.joined_wrapper .domar_button .domar_btn {
+	    padding: 13px 35px;
+	}
+	.contact_wrapper .single_contact .list_text p{
+		font-size: 13px;
+    	line-height: 22px;
+	}
+	/*single_course.html*/
+	.single_course_wrapper .price_area .price_tag {
+	    margin-right: 15px;
+	}
+	/*blog.html*/
+	.blog_v2 .domar_info h3 {
+	    font-size: 22px;
+	}
+	/*single_event.html*/
+	.single_event_wrapper .admin_area .meta_link ul li {
+	    margin-left: 5px;
+	}
+	.single_event_wrapper .admin_area .meta_link ul li a i {
+	    margin-right: 8px;
+	}
+}
+
+/*Medium Device*/
+@media only screen and (min-width: 768px) and (max-width : 991px) {
+	.domar_img img{
+		width: 100%;
+	}
+	.site_menu{
+		display: none;
+	}
+	.mobile_wrapper{
+		display: block;
+	}
+	.about_v1 .domar_content_box,
+	.domar_why_choose .domar_img_box,
+	.teacher_box,
+	.footer_widget_wrapper .widget_box{
+		margin-bottom: 60px;
+	}
+	.domar_joined_v1 .domar_content_box h2{
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.copyright_text {
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.copyright_link {
+	    float: none;
+	    text-align: center;
+	}
+	.copyright_link ul li {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	/*home_v2*/
+	.event_v1 .section_title {
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.event_v1 .domar_button {
+	    float: none;
+	    text-align: center;
+	}
+	/*single_blog*/
+	.domar_sidebar{
+		margin-top: 60px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.domar_img img{
+		width: 100%;
+	}
+	.site_menu{
+		display: none;
+	}
+	.mobile_wrapper{
+		display: block;
+	}
+	.section_title h2 {
+	    font-size: 20px;
+	}
+	.header_top_bar .top_left{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.header_top_bar .top_right {
+	    float: none;
+	    text-align: center;
+	}
+	.header_top_bar .top_left a {
+	    color: #fff;
+	    font-size: 14px;
+	    display: block;
+	}
+	.hero_bg .domar_content_box h1 {
+	    font-size: 22px;
+	    line-height: 32px;
+	}
+	.countdown_newsletter {
+		text-align: center;
+	    margin-bottom: 40px;
+	}
+	.offer_countdown .counter_column{
+		margin-bottom: 40px;
+	}
+	.countdown_newsletter .form_group .domar_btn {
+	    padding: 17px 10px;
+	    font-size: 12px;
+	}
+	.course_style_v1 .course_box .domar_info .post_title h3 {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.domar_joined_v1 .domar_content_box h2 {
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+	.joined_wrapper .domar_content_box{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.joined_wrapper .domar_content_box h2 {
+	    font-size: 22px;
+	    line-height: 26px;
+	}
+	.joined_wrapper .domar_button{
+		float: none;
+		text-align: center;
+	}
+	.domar_why_choose .domar_content_box h3 {
+	    font-size: 26px;
+	    line-height: 35px;
+	}
+	.blog_style_v1 .blog_box .blog_info h3 {
+	    font-size: 20px;
+	    line-height: 28px;
+	}
+	.blog_style_v1 .blog_box {
+	    margin-bottom: 60px;
+	}
+	.blog_list_wrapper .blog_box_2 .blog_info h3 {
+	    font-size: 22px;
+	    line-height: 28px;
+	}
+	.appointment_v1 .appointment_form,
+	.about_v1 .domar_content_box,
+	.domar_why_choose .domar_img_box,
+	.teacher_box,
+	.footer_widget_wrapper .widget_box{
+		margin-bottom: 60px;
+	}
+	.copyright_text {
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.copyright_link {
+	    float: none;
+	    text-align: center;
+	}
+	.copyright_link ul li {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	/*home_v2*/
+	.appointment_v1 .appointment_form .selectoption{
+		margin-bottom: 30px;
+	}
+	.hero_v3 .domar_button .domar_btn,
+	.hero_v2 .domar_button .domar_btn{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.featured_v1 .domar_box{
+		margin-bottom: 60px;
+	}
+	.event_v1 .section_title{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.event_v1 .domar_button{
+		float: none;
+		text-align: center;
+	}
+	.testimonial_v1 .testimonial_box .testimonial_img {
+	    width: 40%;
+	}
+	.testimonial_v1 .testimonial_box .testimonial_img img{
+		width: 70px;
+	}
+	.testimonial_v1 .testimonial_box .testimonial_info {
+	    padding: 20px 20px;
+	    width: 60%;
+	}
+	/*single_course.html*/
+	.single_course_wrapper .price_area{
+		justify-content: center;
+	}
+	.single_course_wrapper .admin_box {
+		margin-bottom: 40px;
+	    display: flex;
+	    justify-content: center;
+	}
+	.single_course_wrapper .admin_area .admin_info {
+	    margin-left: 25px;
+	}
+	.single_course_wrapper .content_title h3 {
+		font-size: 24px;
+	    line-height: 32px;
+	}
+	.single_course_wrapper .discription_tab .nav-tabs .nav-link{
+	    padding-right: 10px;
+	    font-size: 14px;
+	}
+	/*Single_blog.html*/
+	.single_blog_wrapper .domar_content_wrapper .admin_box ul li {
+	    margin-bottom: 20px;
+	}
+	.single_blog_wrapper .domar_content_wrapper h3{
+		font-size: 24px;
+		line-height: 34px;
+	}
+	.single_blog_wrapper .domar_content_wrapper ul.tag_list li a{
+		margin-bottom: 10px;
+	}
+	.single_comment .comment_img {
+	    float: none;
+	}
+	.single_comment .comment_info {
+	    margin-left: 0;
+	    margin-top: 20px;
+	}
+	.single_comment:nth-child(odd){
+		padding-left: 0px;
+	}
+	.domar_sidebar{
+		margin-top: 60px;
+	}
+	/*single_event.html*/
+	.single_event_wrapper .admin_box {
+	    text-align: center;
+	}
+	.single_event_wrapper .admin_area .meta_link{
+		float: none;
+		text-align: center;
+	}
+	.single_event_wrapper .admin_area .meta_link ul li {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+}
+/* Mobile Devices, Tablets */
+@media only screen and (max-width: 400px){
+	.testimonial_v1 .testimonial_box{
+		display: block;
+	}
+	.testimonial_v1 .testimonial_box .testimonial_img {
+	    width: 100%;
+	    height: 150px;
+	}
+	.testimonial_v1 .testimonial_box .testimonial_info {
+	    padding: 20px 20px;
+	    width: 100%;
+	}
+}
+/* Mobile Devices, Tablets */
+@media only screen and (min-width: 450px) and (max-width : 767px) {
+	.hero_v3 .domar_button .domar_btn,
+	.hero_v2 .domar_button .domar_btn{
+		display: inline-block;
+	}
+	.single_comment:nth-child(odd){
+		padding-left: 30px;
+	}
+	.single_event_wrapper .admin_area .meta_link ul li {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	}
+	.single_course_wrapper .admin_area .admin_info {
+	    margin-left: 45px;
+	}
+}
